@@ -80,10 +80,10 @@ Este documento serve como a "fonte da verdade" (Source of Truth) para o Time de 
 
 ---
 
-1. Metodologia de Desenvolvimento: Ágil (Scrum/Kanban)
+## 1. Metodologia de Desenvolvimento: Ágil (Scrum/Kanban)
 A metodologia de desenvolvimento escolhida para criar a documentação (User Story, Casos de Teste) foi inequivocamente a Ágil.
 
-Justificativa:
+### Justificativa:
 
 Na criação de User Stories (Histórias de Usuário): O formato usado (Como um... Eu quero... Para que...) é a pedra angular do desenvolvimento Ágil. Ele foca em entregar "fatias" de valor para o usuário (o módulo de curso), em vez de um grande projeto monolítico.
 
@@ -91,10 +91,10 @@ Definição de Critérios de Aceite (ACs): Os casos de teste (especialmente os G
 
 Foco em Features (Funcionalidades): Todo o desafio é centrado em um "módulo" ou "feature" (o cadastro de curso). Isso é característico de Sprints (Scrum) ou de um fluxo contínuo (Kanban), onde o trabalho é dividido em partes menores e gerenciáveis.
 
-2. Metodologia de Teste: Black Box (Caixa-Preta)
+## 2. Metodologia de Teste: Black Box (Caixa-Preta)
 A abordagem técnica que utilizada para encontrar os bugs e para escrever os casos de teste é a Black Box.
 
-Justificativa:
+### Justificativa:
 
 Sem Acesso ao Código-Fonte: Em nenhum momento foi analizado o código (HTML, CSS, JavaScript ou back-end) da aplicação.
 
@@ -102,15 +102,19 @@ Foco no Comportamento Externo: Todos os nossos testes foram baseados em observar
 
 Testes Baseados em Requisitos: Os casos de teste foram criados com base nos requisitos que definimos (os Critérios de Aceite), e não com base na lógica interna do software.
 
-3. Tipos de Teste Aplicados
+## 3. Tipos de Teste Aplicados
 Dentro da metodologia Black Box, aplicamos principalmente dois tipos de teste:
 
-Testes Funcionais:
+### Testes Funcionais:
 
-Justificativa: A grande maioria dos nossos casos de teste (CT-001 a CT-007) são funcionais. Eles verificam sistematicamente se as funções da aplicação (cadastro, validação de campos, lógica de datas) estão em conformidade com os requisitos (os ACs).
+* Justificativa: A grande maioria dos nossos casos de teste (CT-001 a CT-007) são funcionais. Eles verificam sistematicamente se as funções da aplicação (cadastro, validação de campos, lógica de datas) estão em conformidade com os requisitos (os ACs).
 
-Testes Exploratórios:
+### Testes Exploratórios:
 
-Justificativa: Foram identificados dois cenários, a partir de testes exploratórios. Não foi seguido um script, mas usada intuição e conhecimento para "explorar" a aplicação, resultando na descoberta dos bugs 404 (o refresh e o "0" na URL), que são cenários que um caso de teste padrão poderia não cobrir.
+* Justificativa: Foram identificados dois cenários, a partir de testes exploratórios. Não foi seguido um script, mas usada intuição e conhecimento para "explorar" a aplicação, resultando na descoberta dos bugs 404 (o refresh e o "0" na URL), que são cenários que um caso de teste padrão poderia não cobrir.
 
-Em resumo: Atuação de um Analista de QA trabalhando em um processo Ágil, aplicando uma metodologia Black Box através de uma combinação de Testes Funcionais (para garantir a cobertura dos requisitos) e Testes Exploratórios (para descobrir bugs inesperados).
+---
+
+## Em resumo: 
+
+Atuação de um Analista de QA trabalhando em um processo Ágil, aplicando uma metodologia Black Box através de uma combinação de Testes Funcionais (para garantir a cobertura dos requisitos) e Testes Exploratórios (para descobrir bugs inesperados).
