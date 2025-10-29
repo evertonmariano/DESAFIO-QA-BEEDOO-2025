@@ -1,0 +1,26 @@
+{
+  "name": "desafio-qa-beedoo-2025",
+  "version": "1.0.0",
+  "description": "Repositório criado para Desafio Técnico 2025 para a vaga de Analista de Qualidade de Software Júnior na Beedoo.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonmariano/DESAFIO-QA-BEEDOO-2025.git"
+  },
+  "keywords": [],
+  "author": "Everton Mariano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertonmariano/DESAFIO-QA-BEEDOO-2025/issues"
+  },
+  "homepage": "https://github.com/evertonmariano/DESAFIO-QA-BEEDOO-2025#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "expect": "^30.2.0",
+    "playwright": "^1.56.1"
+  }
+}
