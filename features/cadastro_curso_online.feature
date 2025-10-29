@@ -5,7 +5,7 @@ Funcionalidade: Cadastro de Curso
   Eu quero cadastrar novos cursos na plataforma
   Para que eles fiquem disponíveis na lista de cursos
 
-  Cenário: CT-002 (Sucesso) Cadastrar um curso presencial com sucesso (Caminho Feliz)
+  Cenário: CT-002 (Sucesso) Cadastrar um curso omline com sucesso (Caminho Feliz)
     Dado que eu estou na página de "Cadastro de curso"
     Quando eu preencher o formulário com dados válidos para um curso "Online"
     E eu clicar em "Cadastrar Curso"
