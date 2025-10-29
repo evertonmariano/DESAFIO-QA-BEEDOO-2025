@@ -1,6 +1,3 @@
-# DESAFIO-QA-BEEDOO-2025
-Repositório criado para Desafio Técnico 2025 para a vaga de Analista de Qualidade de Software Júnior na Beedoo.
-
 # Projeto: Beedoo QA Challenge - Módulo de Cursos
 
 Este documento descreve o processo de análise e definição de requisitos para a *feature* de "Cadastro de Curso", incluindo a História de Usuário (User Story) e os Critérios de Aceite (AC) que guiarão o desenvolvimento e os testes.
@@ -70,15 +67,11 @@ Os Critérios de Aceite são as "regras" que definem se a história foi implemen
     * `AC 9`: "Ao cadastrar um curso com sucesso, o usuário deve ser redirecionado para a tela 'Lista de cursos'..." (Define o "fluxo feliz" pós-sucesso).
 * **Justificativa:** Um QA não testa apenas o que está escrito, mas também o que está *implícito*. Se o formulário permite inserir uma data de término anterior ao início, os dados são inválidos. Se o usuário cadastra e nada acontece, a usabilidade é ruim. Esses ACs cobrem a lógica e a usabilidade que o usuário espera.
 
----
-
-## 3. Conclusão
-
-A História de Usuário define o **valor** da *feature* para o negócio. Os Critérios de Aceite definem a **qualidade**, transformando as análises de UI, os bugs encontrados e as boas práticas de mercado em regras testáveis.
-
-Este documento serve como a "fonte da verdade" (Source of Truth) para o Time de Desenvolvimento (que sabe o que construir) e para o Time de QA (que sabe o que validar).
 
 ---
+
+
+# Informações Complementares
 
 ## 1. Metodologia de Desenvolvimento: Ágil (Scrum/Kanban)
 A metodologia de desenvolvimento escolhida para criar a documentação (User Story, Casos de Teste) foi inequivocamente a Ágil.
@@ -113,8 +106,9 @@ Dentro da metodologia Black Box, aplicamos principalmente dois tipos de teste:
 
 * Justificativa: Foram identificados dois cenários, a partir de testes exploratórios. Não foi seguido um script, mas usada intuição e conhecimento para "explorar" a aplicação, resultando na descoberta dos bugs 404 (o refresh e o "0" na URL), que são cenários que um caso de teste padrão poderia não cobrir.
 
+
 ---
 
-## Em resumo: 
 
-Atuação de um Analista de QA trabalhando em um processo Ágil, aplicando uma metodologia Black Box através de uma combinação de Testes Funcionais (para garantir a cobertura dos requisitos) e Testes Exploratórios (para descobrir bugs inesperados).
+# LINK DE ARTEFATOS E EVIDÊNCIAS  
+https://drive.google.com/drive/folders/1oJwiL8AHTLwirp8jTvZSMDN1AubLtZbe?usp=sharing
